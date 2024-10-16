@@ -9,21 +9,21 @@ ul, li {
 	grid-template-columns: 1fr 3fr 1fr;
 	column-gap: 30px;
 	text-align: center
-	font-family: PirataOne;
+	font-family: PirataOne-Regular;
 }
 header {
 	grid-column: span 3;
 	text-align: center;
 	border-bottom: 1px solid #000000;
 	background-image: url(images/wood.jpg);
-	font-family: PirataOne;
+	font-family: PirataOne-Regular;
 }
 nav {
 	padding: 30px;
 	border-right: 1px solid #000000;
 	background-color: #939393;
 	background-image: url(images/wood.jpg);
-	font-family: PirataOne;
+	font-family: PirataOne-Regular;
 }
 nav li {
 	text-decoration: underline;
@@ -31,12 +31,12 @@ nav li {
 article {
 	padding: 30px;
 	text-align: center;
-	font-family: PirataOne;
+	font-family: PirataOne-Regular;
 }
 article h2 {
 	font-size: 3.5em;
 	text-align-last: center;
-	font-family: PirataOne;
+	font-family: PirataOne-Regular;
 }
 article img {
 	width: 50%;
@@ -50,7 +50,8 @@ aside {
 	border-left: 1px solid #000000;
 	background-color: #939393;
 	background-image: url(images/wood.jpg);
-	font-family: PirataOne;
+	font-family: PirataOne-Regular;
+}
 footer {
 	grid-column: span 3;
 	text-align: center;
@@ -58,11 +59,11 @@ footer {
 	padding: 30px;
 	background-color: #939393;
 	background-image: url(images/wood.jpg);
-	font-family: Piratar;
+	font-family: PirataOne-Regular;
 }
 body {
 	background-color: #FCFBF4;
-	font-family: PirataOne;
+	font-family: PirataOne-Regular;
 	
 }
 .circle {
@@ -103,7 +104,7 @@ body {
 	justify-content: center;
 	opacity: 0;
 	transition: opacity 0.25s;
-	font-family: PirataOne;
+	font-family: PirataOne-Regular;
 }
 .image__overlay--blur {
 	backdrop-filter: blur(5px);
@@ -121,13 +122,13 @@ body {
 .image__title {
 	font-size: 1.25em;
 	text-align: center;
-	font-family: PirataOne;
+	font-family: PirataOne-Regular;
 }
 .image__desctiption {
 	font-size: 1.25em;
 	margin-top: 0.25em;
 	text-align: center;
-	font-family: PirataOne;
+	font-family: PirataOne-Regular;
 }
 a:link {
   color: green;
@@ -152,12 +153,12 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-/* @font-face {
+@font-face {
     font-family: PirataOne-Regular;
     src: url("../MySteakhouse/font/PirataOne-Regular.TTF") format('truetype');
     font-weight: bold;
     font-style: normal;
-} */
+}
 /* responsive styling */
 @media screen and (max-width: 1200px) {
 	nav {
